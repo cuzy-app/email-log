@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 pentru a nu șterge niciodată jurnalele.',
+  'Add an "Email log" entry in the Administration menu' => 'Adăugați o intrare „Jurnal de e-mailuri” în meniul Administrare',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Adăugați o eroare în jurnalul HumHub atunci când un e-mail nu poate fi trimis',
+  'At most one notification per hour.' => 'Cel mult o notificare pe oră.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Listă separată prin virgulă. Valorile acestor parametri de interogare URL sunt înlocuite cu {redacted} .',
+  'Delete logs older than (days)' => 'Ștergeți jurnalele mai vechi de (zile)',
+  'Email content to store' => 'Trimiteți conținut prin e-mail către stocare',
+  'Email logs' => 'Jurnalele de e-mail',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'E-mailurile pot conține date personale. Nestocarea niciunui conținut reduce dimensiunea bazei de date, dar e-mailul nu poate fi previzualizat sau retrimis.',
+  'HTML and plain text' => 'HTML și text simplu',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub înregistrează deja eroarea de transport, dar fără destinatar și subiect.',
+  'No content' => 'Fără conținut',
+  'Notify system administrators when an email cannot be sent' => 'Notificați administratorii de sistem când un e-mail nu poate fi trimis',
+  'Plain text only' => 'Numai text simplu',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Recomandat: e-mailurile precum cele de recuperare a parolei, invitații la înregistrare sau schimbări de adresă de e-mail conțin linkuri cu token-uri secrete care ar permite oricui are acces la jurnalele de utilizator să preia controlul asupra unui cont.',
+  'Redact security tokens in the stored content' => 'Redactează token-urile de securitate din conținutul stocat',
+  'URL parameters to redact' => 'Parametri URL de redactat',
+];

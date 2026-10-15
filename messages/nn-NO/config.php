@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 for å aldri slette logger.',
+  'Add an "Email log" entry in the Administration menu' => 'Legg til en «E-postlogg»-oppføring i Administrasjon-menyen',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Legg til en feil i HumHub-loggen når en e-post ikke kan sendes',
+  'At most one notification per hour.' => 'Maksimalt én varsling per time.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Kommaseparert liste. Verdiene til disse URL-spørringsparameterne erstattes med {redacted} .',
+  'Delete logs older than (days)' => 'Slett logger som er eldre enn (dager)',
+  'Email content to store' => 'Send innhold til butikken via e-post',
+  'Email logs' => 'E-postlogger',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'E-poster kan inneholde personopplysninger. Hvis du ikke lagrer innhold, reduseres databasestørrelsen, men e-posten kan ikke forhåndsvises eller sendes på nytt.',
+  'HTML and plain text' => 'HTML og ren tekst',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub logger allerede transportfeilen, men uten mottakeren og emnet.',
+  'No content' => 'Ikke noe innhold',
+  'Notify system administrators when an email cannot be sent' => 'Varsle systemadministratorer når en e-post ikke kan sendes',
+  'Plain text only' => 'Kun ren tekst',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Anbefalt: E-poster som for eksempel passordgjenoppretting, registreringsinvitasjon eller e-postendring inneholder lenker med hemmelige tokener som lar alle som har tilgang til loggene ta over en konto.',
+  'Redact security tokens in the stored content' => 'Fjern sikkerhetstokener i det lagrede innholdet',
+  'URL parameters to redact' => 'URL-parametere som skal redigeres',
+];

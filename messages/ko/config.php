@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0은 로그를 절대 삭제하지 않음을 의미합니다.',
+  'Add an "Email log" entry in the Administration menu' => '관리 메뉴에 "이메일 로그" 항목을 추가하세요.',
+  'Add an error in the HumHub log when an email cannot be sent' => '이메일 전송 실패 시 HumHub 로그에 오류 메시지를 추가합니다.',
+  'At most one notification per hour.' => '한 시간에 최대 한 건의 알림만 허용됩니다.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => '쉼표로 구분된 목록입니다. 이러한 URL 쿼리 매개변수의 값은 {redacted} 으로 대체됩니다.',
+  'Delete logs older than (days)' => '(일)보다 오래된 로그를 삭제하세요.',
+  'Email content to store' => '이메일 내용을 저장소에 저장하세요',
+  'Email logs' => '이메일 로그',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => '이메일에는 개인 정보가 포함될 수 있습니다. 내용을 저장하지 않으면 데이터베이스 크기는 줄어들지만, 이메일을 미리 보거나 다시 보낼 수 없습니다.',
+  'HTML and plain text' => 'HTML과 일반 텍스트',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub는 이미 전송 오류를 기록하지만 수신자와 제목은 기록하지 않습니다.',
+  'No content' => '콘텐츠 없음',
+  'Notify system administrators when an email cannot be sent' => '이메일 전송에 실패할 경우 시스템 관리자에게 알리세요.',
+  'Plain text only' => '일반 텍스트만',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => '권장 사항: 비밀번호 복구, 회원가입 초대 또는 이메일 변경 관련 이메일에는 로그에 접근 권한이 있는 사람이 계정을 탈취할 수 있도록 하는 비밀 토큰이 포함된 링크가 있을 수 있습니다.',
+  'Redact security tokens in the stored content' => '저장된 콘텐츠에서 보안 토큰을 숨깁니다.',
+  'URL parameters to redact' => 'URL 매개변수를 숨길 예정입니다.',
+];

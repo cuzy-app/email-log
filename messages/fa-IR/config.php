@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 برای اینکه هرگز لاگ‌ها حذف نشوند.',
+  'Add an "Email log" entry in the Administration menu' => 'یک ورودی «گزارش ایمیل» در منوی مدیریت اضافه کنید',
+  'Add an error in the HumHub log when an email cannot be sent' => 'وقتی ایمیلی ارسال نمی‌شود، خطایی در گزارش HumHub اضافه کنید',
+  'At most one notification per hour.' => 'حداکثر یک اعلان در هر ساعت.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'لیست جدا شده با کاما. مقادیر این پارامترهای کوئری URL با {redacted} جایگزین می‌شوند.',
+  'Delete logs older than (days)' => 'حذف گزارش‌های قدیمی‌تر از (روز)',
+  'Email content to store' => 'ایمیل کردن محتوا برای ذخیره',
+  'Email logs' => 'گزارش‌های ایمیل',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'ایمیل‌ها می‌توانند حاوی داده‌های شخصی باشند. ذخیره نکردن محتوا، حجم پایگاه داده را کاهش می‌دهد، اما ایمیل قابل پیش‌نمایش یا ارسال مجدد نیست.',
+  'HTML and plain text' => 'HTML و متن ساده',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub از قبل خطای انتقال را ثبت می‌کند، اما بدون گیرنده و موضوع.',
+  'No content' => 'بدون محتوا',
+  'Notify system administrators when an email cannot be sent' => 'اطلاع رسانی به مدیران سیستم در صورت عدم امکان ارسال ایمیل',
+  'Plain text only' => 'فقط متن ساده',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'توصیه می‌شود: ایمیل‌هایی مانند بازیابی رمز عبور، دعوت‌نامه ثبت‌نام یا تغییر ایمیل حاوی لینک‌هایی با توکن‌های مخفی هستند که به هر کسی که به گزارش‌ها دسترسی داشته باشد، اجازه می‌دهد تا کنترل یک حساب کاربری را در دست بگیرد.',
+  'Redact security tokens in the stored content' => 'توکن‌های امنیتی را در محتوای ذخیره‌شده ویرایش کنید',
+  'URL parameters to redact' => 'پارامترهای URL برای ویرایش',
+];

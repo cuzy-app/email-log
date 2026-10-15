@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 erregistroak inoiz ezabatzeko.',
+  'Add an "Email log" entry in the Administration menu' => 'Gehitu "Posta elektronikoaren erregistroa" sarrera Administrazio menuan',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Gehitu errore bat HumHub-en erregistroan mezu elektroniko bat bidali ezin denean',
+  'At most one notification per hour.' => 'Gehienez jakinarazpen bat orduko.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Komaz bereizitako zerrenda. URL kontsulta-parametro hauen balioak {redacted} ordezkatu dira.',
+  'Delete logs older than (days)' => 'Ezabatu (egun) baino zaharragoak diren erregistroak',
+  'Email content to store' => 'Edukia posta elektronikoz gordetzeko bidali',
+  'Email logs' => 'Posta elektronikoaren erregistroak',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Mezu elektronikoek datu pertsonalak izan ditzakete. Edukirik ez gordetzeak datu-basearen tamaina murrizten du, baina mezu elektronikoa ezin da aurreikusi edo berriro bidali.',
+  'HTML and plain text' => 'HTML eta testu arrunta',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub-ek garraio-errorea erregistratzen du dagoeneko, baina hartzailea eta gaia gabe.',
+  'No content' => 'Edukirik ez',
+  'Notify system administrators when an email cannot be sent' => 'Jakinarazi sistemaren administratzaileei mezu elektroniko bat bidali ezin denean',
+  'Plain text only' => 'Testu arrunta bakarrik',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Gomendatua: pasahitza berreskuratzeko, izena emateko gonbidapena egiteko edo helbide elektronikoa aldatzeko mezu elektronikoek token sekretuak dituzten estekak dituzte, eta horien bidez erregistroetarako sarbidea duen edonork kontu baten kontrola hartu ahal izango du.',
+  'Redact security tokens in the stored content' => 'Ezabatu gordetako edukiko segurtasun-tokenak',
+  'URL parameters to redact' => 'Ezabatzeko URL parametroak',
+];

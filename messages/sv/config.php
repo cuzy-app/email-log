@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 för att aldrig radera loggar.',
+  'Add an "Email log" entry in the Administration menu' => 'Lägg till en post för "E-postlogg" i administrationsmenyn',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Lägg till ett fel i HumHub-loggen när ett e-postmeddelande inte kan skickas',
+  'At most one notification per hour.' => 'Högst en avisering per timme.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Kommaseparerad lista. Värdena för dessa URL-frågeparametrar ersätts med {redacted} .',
+  'Delete logs older than (days)' => 'Ta bort loggar som är äldre än (dagar)',
+  'Email content to store' => 'Mejla innehåll till butik',
+  'Email logs' => 'E-postloggar',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'E-postmeddelanden kan innehålla personuppgifter. Om inget innehåll lagras minskar databasens storlek, men e-postmeddelandet kan inte förhandsgranskas eller skickas om.',
+  'HTML and plain text' => 'HTML och vanlig text',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub loggar redan transportfelet, men utan mottagaren och ämnet.',
+  'No content' => 'Inget innehåll',
+  'Notify system administrators when an email cannot be sent' => 'Meddela systemadministratörer när ett e-postmeddelande inte kan skickas',
+  'Plain text only' => 'Endast vanlig text',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Rekommenderas: e-postmeddelanden som lösenordsåterställning, registreringsinbjudningar eller e-postadressändringar innehåller länkar med hemliga tokens som gör det möjligt för alla som har tillgång till loggarna att ta över ett konto.',
+  'Redact security tokens in the stored content' => 'Redigera säkerhetstokens i det lagrade innehållet',
+  'URL parameters to redact' => 'URL-parametrar att redigera',
+];

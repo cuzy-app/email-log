@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0, jos haluat lokien poistamisen pysyvästi.',
+  'Add an "Email log" entry in the Administration menu' => 'Lisää "Sähköloki"-merkintä hallintavalikkoon',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Lisää HumHub-lokiin virhe, kun sähköpostia ei voida lähettää',
+  'At most one notification per hour.' => 'Enintään yksi ilmoitus tunnissa.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Pilkuilla erotettu luettelo. Näiden URL-kyselyparametrien arvot korvataan {redacted} merkillä.',
+  'Delete logs older than (days)' => 'Poista lokit, jotka ovat vanhempia kuin (päivää)',
+  'Email content to store' => 'Sähköpostitse tallennettava sisältö',
+  'Email logs' => 'Sähköpostilokit',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Sähköpostit voivat sisältää henkilötietoja. Jos tietoja ei tallenneta, tietokannan koko pienenee, mutta sähköpostia ei voi esikatsella tai lähettää uudelleen.',
+  'HTML and plain text' => 'HTML ja pelkkä teksti',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub kirjaa jo siirtovirheen, mutta ilman vastaanottajaa ja aihetta.',
+  'No content' => 'Ei sisältöä',
+  'Notify system administrators when an email cannot be sent' => 'Ilmoita järjestelmänvalvojille, kun sähköpostia ei voida lähettää',
+  'Plain text only' => 'Vain pelkkää tekstiä',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Suositus: sähköpostit, kuten salasanan palautus, rekisteröintikutsu tai sähköpostiosoitteen vaihto, sisältävät linkkejä salaisiin tokeneihin, joiden avulla kuka tahansa lokitietoihin pääsyn omaava voi ottaa tilin haltuunsa.',
+  'Redact security tokens in the stored content' => 'Poista tallennetun sisällön suojaustunnukset',
+  'URL parameters to redact' => 'Redifioitavat URL-parametrit',
+];

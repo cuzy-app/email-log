@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0, lai nekad nedzēstu žurnālus.',
+  'Add an "Email log" entry in the Administration menu' => 'Administrēšanas izvēlnē pievienot ierakstu “E-pasta žurnāls”',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Pievienot kļūdu HumHub žurnālā, ja e-pastu nevar nosūtīt',
+  'At most one notification per hour.' => 'Ne vairāk kā viens paziņojums stundā.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Ar komatiem atdalīts saraksts. Šo URL vaicājuma parametru vērtības tiek aizstātas ar {redacted} .',
+  'Delete logs older than (days)' => 'Dzēst žurnālus, kas vecāki par (dienām)',
+  'Email content to store' => 'Nosūtīt saturu pa e-pastu saglabāšanai',
+  'Email logs' => 'E-pasta žurnāli',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'E-pastos var būt ietverti personas dati. Nesaglabājot saturu, datubāzes lielums samazinās, taču e-pastu nevar priekšskatīt vai atkārtoti nosūtīt.',
+  'HTML and plain text' => 'HTML un vienkāršs teksts',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub jau reģistrē transporta kļūdu, bet bez saņēmēja un tēmas.',
+  'No content' => 'Nav satura',
+  'Notify system administrators when an email cannot be sent' => 'Paziņot sistēmas administratoriem, ja e-pastu nevar nosūtīt',
+  'Plain text only' => 'Tikai vienkāršs teksts',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Ieteicams: e-pastos, piemēram, paroles atgūšanas, reģistrācijas uzaicinājuma vai e-pasta maiņas e-pastā, ir saites ar slepeniem tokeniem, kas ļautu ikvienam, kam ir piekļuve žurnāliem, pārņemt kontu.',
+  'Redact security tokens in the stored content' => 'Rediģēt drošības žetonus saglabātajā saturā',
+  'URL parameters to redact' => 'Rediģējamie URL parametri',
+];

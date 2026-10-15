@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 per non eliminare mai i log.',
+  'Add an "Email log" entry in the Administration menu' => 'Aggiungi una voce "Registro email" nel menu Amministrazione.',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Aggiungi un errore nel registro di HumHub quando non è possibile inviare un\'email.',
+  'At most one notification per hour.' => 'Massimo una notifica all\'ora.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Elenco separato da virgole. I valori di questi parametri di query URL vengono sostituiti con {redacted} .',
+  'Delete logs older than (days)' => 'Elimina i log più vecchi di (giorni)',
+  'Email content to store' => 'Invia il contenuto dell\'e-mail al negozio',
+  'Email logs' => 'Registri delle email',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Le email possono contenere dati personali. Non memorizzare alcun contenuto riduce le dimensioni del database, ma l\'email non può essere visualizzata in anteprima né reinviata.',
+  'HTML and plain text' => 'HTML e testo semplice',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub registra già l\'errore di trasporto, ma senza il destinatario e l\'oggetto.',
+  'No content' => 'Nessun contenuto',
+  'Notify system administrators when an email cannot be sent' => 'Avvisare gli amministratori di sistema quando non è possibile inviare un\'e-mail.',
+  'Plain text only' => 'Solo testo semplice',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Consigliato: le email come quelle per il recupero della password, gli inviti alla registrazione o la modifica dell\'indirizzo email contengono link con token segreti che consentirebbero a chiunque abbia accesso ai registri di assumere il controllo di un account.',
+  'Redact security tokens in the stored content' => 'Oscurare i token di sicurezza nel contenuto memorizzato',
+  'URL parameters to redact' => 'Parametri URL da oscurare',
+];

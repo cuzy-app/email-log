@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0, ha soha nem törli a naplókat.',
+  'Add an "Email log" entry in the Administration menu' => '„E-mail napló” bejegyzés hozzáadása az Adminisztráció menühöz',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Hiba hozzáadása a HumHub naplójában, ha egy e-mailt nem lehet elküldeni',
+  'At most one notification per hour.' => 'Legfeljebb egy értesítés óránként.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Vesszővel elválasztott lista. Ezen URL lekérdezési paraméterek értékeit a {redacted} karakterlánc helyettesíti.',
+  'Delete logs older than (days)' => '(napnál régebbi naplók törlése)',
+  'Email content to store' => 'E-mailben tárolandó tartalom',
+  'Email logs' => 'E-mail naplók',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Az e-mailek tartalmazhatnak személyes adatokat. Ha nem tárolunk tartalmat, az adatbázis mérete csökken, de az e-mail nem tekinthető meg előnézetben vagy nem küldhető el újra.',
+  'HTML and plain text' => 'HTML és sima szöveg',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'A HumHub már naplózza a szállítási hibát, de a címzett és a tárgy nélkül.',
+  'No content' => 'Nincs tartalom',
+  'Notify system administrators when an email cannot be sent' => 'Értesítse a rendszergazdákat, ha egy e-mailt nem lehet elküldeni',
+  'Plain text only' => 'Csak sima szöveg',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Ajánlott: az olyan e-mailek, mint a jelszó-helyreállító, regisztrációs meghívó vagy e-mail-módosítás, titkos tokeneket tartalmazó linkeket tartalmaznak, amelyek lehetővé teszik a naplókhoz hozzáférő bárki számára, hogy átvegye a fiókot.',
+  'Redact security tokens in the stored content' => 'Biztonsági tokenek kitakarása a tárolt tartalomban',
+  'URL parameters to redact' => 'Kivonandó URL-paraméterek',
+];

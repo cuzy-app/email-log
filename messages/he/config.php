@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 כדי לא למחוק יומנים לעולם.',
+  'Add an "Email log" entry in the Administration menu' => 'הוסף ערך "יומן דוא"ל" בתפריט ניהול',
+  'Add an error in the HumHub log when an email cannot be sent' => 'הוסף שגיאה ביומן HumHub כאשר לא ניתן לשלוח דוא"ל',
+  'At most one notification per hour.' => 'לכל היותר התראה אחת לשעה.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'רשימה מופרדת בפסיקים. הערכים של פרמטרי שאילתת URL אלה מוחלפים ב- {redacted} .',
+  'Delete logs older than (days)' => 'מחיקת יומנים ישנים יותר מ-(ימים)',
+  'Email content to store' => 'דוא"ל תוכן לחנות',
+  'Email logs' => 'יומני דוא"ל',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'אימיילים יכולים להכיל נתונים אישיים. אי אחסון תוכן מפחית את גודל מסד הנתונים, אך לא ניתן לצפות בתצוגה מקדימה של האימייל או לשלוח אותו מחדש.',
+  'HTML and plain text' => 'HTML וטקסט רגיל',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub כבר רושם את שגיאת ההעברה, אך ללא הנמען והנושא.',
+  'No content' => 'אין תוכן',
+  'Notify system administrators when an email cannot be sent' => 'הודע למנהלי מערכת כאשר לא ניתן לשלוח דוא"ל',
+  'Plain text only' => 'טקסט רגיל בלבד',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'מומלץ: אימיילים כגון שחזור סיסמה, הזמנה להרשמה או שינוי אימייל מכילים קישורים עם טוקנים סודיים שיאפשרו לכל מי שיש לו גישה ליומני הרישום להשתלט על חשבון.',
+  'Redact security tokens in the stored content' => 'מחיקת אסימוני אבטחה בתוכן המאוחסן',
+  'URL parameters to redact' => 'פרמטרים של כתובת URL לעריכה',
+];

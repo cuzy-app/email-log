@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 pou pa janm efase jounal yo.',
+  'Add an "Email log" entry in the Administration menu' => 'Ajoute yon antre "Jounal Imèl" nan meni Administrasyon an',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Ajoute yon erè nan jounal HumHub la lè yo pa ka voye yon imèl.',
+  'At most one notification per hour.' => 'O maksimòm yon notifikasyon pa èdtan.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Lis separe ak {redacted} . Valè paramèt rechèch URL sa yo ranplase pa .',
+  'Delete logs older than (days)' => 'Efase jounal ki pi ansyen pase (jou)',
+  'Email content to store' => 'Voye kontni pa imèl pou estoke',
+  'Email logs' => 'Jounal imel',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Imèl yo ka gen done pèsonèl. Si ou pa sere kontni, sa diminye gwosè baz done a, men ou pa ka wè imèl la anvan oswa voye l ankò.',
+  'HTML and plain text' => 'HTML ak tèks senp',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub deja anrejistre erè transpò a, men san moun k ap resevwa a ak sijè a.',
+  'No content' => 'Pa gen kontni',
+  'Notify system administrators when an email cannot be sent' => 'Notifye administratè sistèm yo lè yo pa ka voye yon imèl',
+  'Plain text only' => 'Tèks senp sèlman',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Rekòmande: Imèl tankou rekiperasyon modpas, envitasyon enskripsyon oswa chanjman imèl genyen lyen ak jeton sekrè ki ta pèmèt nenpòt moun ki gen aksè a jounal yo pran kontwòl yon kont.',
+  'Redact security tokens in the stored content' => 'Retire jeton sekirite yo nan kontni ki estoke a',
+  'URL parameters to redact' => 'Paramèt URL pou efase',
+];

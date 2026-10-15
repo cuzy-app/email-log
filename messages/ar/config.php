@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 لعدم حذف السجلات مطلقاً.',
+  'Add an "Email log" entry in the Administration menu' => 'أضف إدخال "سجل البريد الإلكتروني" في قائمة الإدارة',
+  'Add an error in the HumHub log when an email cannot be sent' => 'أضف خطأً في سجل HumHub عند تعذر إرسال بريد إلكتروني',
+  'At most one notification per hour.' => 'بحد أقصى إشعار واحد في الساعة.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'قائمة مفصولة بفواصل. تم استبدال قيم معلمات استعلام عنوان URL هذه بمعلومات {redacted} .',
+  'Delete logs older than (days)' => 'حذف السجلات الأقدم من (أيام)',
+  'Email content to store' => 'محتوى البريد الإلكتروني للتخزين',
+  'Email logs' => 'سجلات البريد الإلكتروني',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'يمكن أن تحتوي رسائل البريد الإلكتروني على بيانات شخصية. يؤدي عدم تخزين أي محتوى إلى تقليل حجم قاعدة البيانات، ولكن لا يمكن معاينة البريد الإلكتروني أو إعادة إرساله.',
+  'HTML and plain text' => 'HTML والنص العادي',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'يقوم HumHub بالفعل بتسجيل خطأ النقل، ولكن بدون المستلم والموضوع.',
+  'No content' => 'لا يوجد محتوى',
+  'Notify system administrators when an email cannot be sent' => 'قم بإخطار مسؤولي النظام عندما يتعذر إرسال بريد إلكتروني',
+  'Plain text only' => 'نص عادي فقط',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'موصى به: تحتوي رسائل البريد الإلكتروني مثل استعادة كلمة المرور أو دعوة التسجيل أو تغيير البريد الإلكتروني على روابط برموز سرية تسمح لأي شخص لديه حق الوصول إلى السجلات بالسيطرة على الحساب.',
+  'Redact security tokens in the stored content' => 'قم بإخفاء رموز الأمان في المحتوى المخزن',
+  'URL parameters to redact' => 'معلمات عنوان URL المراد تنقيحها',
+];

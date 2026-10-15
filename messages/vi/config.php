@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 nghĩa là không bao giờ xóa nhật ký.',
+  'Add an "Email log" entry in the Administration menu' => 'Thêm mục "Nhật ký email" trong menu Quản trị.',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Thêm thông báo lỗi vào nhật ký HumHub khi không thể gửi email.',
+  'At most one notification per hour.' => 'Tối đa một thông báo mỗi giờ.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Danh sách được phân tách bằng dấu phẩy. Giá trị của các tham số truy vấn URL này được thay thế bằng {redacted} .',
+  'Delete logs older than (days)' => 'Xóa nhật ký cũ hơn (ngày)',
+  'Email content to store' => 'Nội dung email cần lưu trữ',
+  'Email logs' => 'Nhật ký email',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Email có thể chứa dữ liệu cá nhân. Việc không lưu trữ nội dung sẽ giảm kích thước cơ sở dữ liệu, nhưng email đó sẽ không thể xem trước hoặc gửi lại.',
+  'HTML and plain text' => 'HTML và văn bản thuần túy',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub đã ghi lại lỗi vận chuyển, nhưng không có thông tin người nhận và chủ thể.',
+  'No content' => 'Không có nội dung',
+  'Notify system administrators when an email cannot be sent' => 'Thông báo cho quản trị viên hệ thống khi không thể gửi email.',
+  'Plain text only' => 'Chỉ văn bản thuần túy',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Khuyến cáo: Các email như email khôi phục mật khẩu, thư mời đăng ký hoặc email thay đổi địa chỉ email có thể chứa các liên kết có mã bí mật, cho phép bất kỳ ai có quyền truy cập vào nhật ký đều có thể chiếm đoạt tài khoản.',
+  'Redact security tokens in the stored content' => 'Xóa bỏ các mã bảo mật trong nội dung đã lưu trữ',
+  'URL parameters to redact' => 'Các tham số URL cần che giấu',
+];

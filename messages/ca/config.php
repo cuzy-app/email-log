@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 per no esborrar mai els registres.',
+  'Add an "Email log" entry in the Administration menu' => 'Afegiu una entrada de "Registre de correu electrònic" al menú d\'administració',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Afegeix un error al registre de HumHub quan no es pot enviar un correu electrònic.',
+  'At most one notification per hour.' => 'Com a màxim, una notificació per hora.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Llista separada per comes. Els valors d\'aquests paràmetres de consulta d\'URL es substitueixen per {redacted} .',
+  'Delete logs older than (days)' => 'Suprimeix els registres anteriors a (dies)',
+  'Email content to store' => 'Enviar contingut per correu electrònic per emmagatzemar',
+  'Email logs' => 'Registres de correu electrònic',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Els correus electrònics poden contenir dades personals. Si no emmagatzema cap contingut, es redueix la mida de la base de dades, però el correu electrònic no es pot previsualitzar ni tornar a enviar.',
+  'HTML and plain text' => 'HTML i text pla',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub ja registra l\'error de transport, però sense el destinatari ni l\'assumpte.',
+  'No content' => 'Sense contingut',
+  'Notify system administrators when an email cannot be sent' => 'Notificar als administradors del sistema quan no es pugui enviar un correu electrònic',
+  'Plain text only' => 'Només text sense format',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Recomanat: els correus electrònics com ara els de recuperació de contrasenya, invitació de registre o canvi de correu electrònic contenen enllaços amb tokens secrets que permetrien a qualsevol persona que tingui accés als registres prendre el control d\'un compte.',
+  'Redact security tokens in the stored content' => 'Redactar els tokens de seguretat del contingut emmagatzemat',
+  'URL parameters to redact' => 'Paràmetres d\'URL per redactar',
+];

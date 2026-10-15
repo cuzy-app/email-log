@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 para no borrar nunca los registros.',
+  'Add an "Email log" entry in the Administration menu' => 'Agregue una entrada "Registro de correo electrónico" en el menú de Administración.',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Agregue un error en el registro de HumHub cuando no se pueda enviar un correo electrónico.',
+  'At most one notification per hour.' => 'Como máximo una notificación por hora.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Lista separada por comas. Los valores de estos parámetros de consulta de URL se reemplazan con {redacted} .',
+  'Delete logs older than (days)' => 'Eliminar registros con más de (días) de antigüedad',
+  'Email content to store' => 'Contenido del correo electrónico para almacenar',
+  'Email logs' => 'Registros de correo electrónico',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Los correos electrónicos pueden contener datos personales. Si bien no almacenar contenido reduce el tamaño de la base de datos, el correo electrónico no se puede previsualizar ni reenviar.',
+  'HTML and plain text' => 'HTML y texto plano',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub ya registra el error de transporte, pero sin el destinatario ni el asunto.',
+  'No content' => 'Sin contenido',
+  'Notify system administrators when an email cannot be sent' => 'Notifique a los administradores del sistema cuando no se pueda enviar un correo electrónico.',
+  'Plain text only' => 'Solo texto sin formato',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Recomendación: Los correos electrónicos como los de recuperación de contraseña, invitación de registro o cambio de correo electrónico contienen enlaces con tokens secretos que permitirían a cualquier persona con acceso a los registros tomar el control de una cuenta.',
+  'Redact security tokens in the stored content' => 'Oculte los tokens de seguridad en el contenido almacenado.',
+  'URL parameters to redact' => 'Parámetros de URL para censurar',
+];

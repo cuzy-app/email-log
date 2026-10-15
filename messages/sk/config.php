@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 pre nikdy neodstraňovanie protokolov.',
+  'Add an "Email log" entry in the Administration menu' => 'Pridajte položku „Denník e-mailov“ do ponuky Administrácia',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Pridajte chybu do protokolu HumHub, keď nie je možné odoslať e-mail',
+  'At most one notification per hour.' => 'Maximálne jedno oznámenie za hodinu.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Zoznam oddelený čiarkami. Hodnoty týchto parametrov dopytu URL sú nahradené {redacted} hodnotami .',
+  'Delete logs older than (days)' => 'Odstrániť protokoly staršie ako (dni)',
+  'Email content to store' => 'Obsah e-mailu do úložiska',
+  'Email logs' => 'Denníky e-mailov',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'E-maily môžu obsahovať osobné údaje. Ak sa neuloží žiadny obsah, zmenší sa veľkosť databázy, ale e-mail nie je možné zobraziť v ukážke ani ho znova odoslať.',
+  'HTML and plain text' => 'HTML a obyčajný text',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub už zaznamená chybu prenosu, ale bez príjemcu a subjektu.',
+  'No content' => 'Žiadny obsah',
+  'Notify system administrators when an email cannot be sent' => 'Upozorniť správcov systému, keď nie je možné odoslať e-mail',
+  'Plain text only' => 'Iba obyčajný text',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Odporúčané: e-maily ako obnovenie hesla, pozvánka na registráciu alebo zmena e-mailu obsahujú odkazy s tajnými tokenmi, ktoré by umožnili komukoľvek s prístupom k protokolom prevziať kontrolu nad účtom.',
+  'Redact security tokens in the stored content' => 'Redigovať bezpečnostné tokeny v uloženom obsahu',
+  'URL parameters to redact' => 'Parametre URL adresy, ktoré sa majú odstrániť',
+];

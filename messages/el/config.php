@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 για να μην διαγράφονται ποτέ τα αρχεία καταγραφής.',
+  'Add an "Email log" entry in the Administration menu' => 'Προσθήκη καταχώρησης "Αρχείο καταγραφής email" στο μενού Διαχείριση',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Προσθήκη σφάλματος στο αρχείο καταγραφής HumHub όταν δεν είναι δυνατή η αποστολή ενός μηνύματος ηλεκτρονικού ταχυδρομείου',
+  'At most one notification per hour.' => 'Το πολύ μία ειδοποίηση ανά ώρα.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Λίστα διαχωρισμένη με κόμμα. Οι τιμές αυτών των παραμέτρων ερωτήματος URL αντικαθίστανται από {redacted} .',
+  'Delete logs older than (days)' => 'Διαγραφή αρχείων καταγραφής παλαιότερων από (ημέρες)',
+  'Email content to store' => 'Αποστολή περιεχομένου μέσω email στο κατάστημα',
+  'Email logs' => 'Αρχεία καταγραφής ηλεκτρονικού ταχυδρομείου',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Τα email μπορεί να περιέχουν προσωπικά δεδομένα. Η μη αποθήκευση περιεχομένου μειώνει το μέγεθος της βάσης δεδομένων, αλλά δεν είναι δυνατή η προεπισκόπηση ή η εκ νέου αποστολή του email.',
+  'HTML and plain text' => 'HTML και απλό κείμενο',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'Το HumHub καταγράφει ήδη το σφάλμα μεταφοράς, αλλά χωρίς τον παραλήπτη και το θέμα.',
+  'No content' => 'Δεν υπάρχει περιεχόμενο',
+  'Notify system administrators when an email cannot be sent' => 'Ειδοποίηση διαχειριστών συστήματος όταν δεν είναι δυνατή η αποστολή ενός email',
+  'Plain text only' => 'Μόνο απλό κείμενο',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Συνιστάται: Τα email όπως η ανάκτηση κωδικού πρόσβασης, η πρόσκληση εγγραφής ή η αλλαγή email περιέχουν συνδέσμους με μυστικά διακριτικά που θα επέτρεπαν σε οποιονδήποτε έχει πρόσβαση στα αρχεία καταγραφής να αναλάβει έναν λογαριασμό.',
+  'Redact security tokens in the stored content' => 'Επεξεργασία διακριτικών ασφαλείας στο αποθηκευμένο περιεχόμενο',
+  'URL parameters to redact' => 'Παράμετροι URL προς επεξεργασία',
+];

@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 คือค่าที่ระบุว่าไม่ลบไฟล์บันทึกเลย',
+  'Add an "Email log" entry in the Administration menu' => 'เพิ่มรายการ "บันทึกอีเมล" ในเมนูการจัดการ',
+  'Add an error in the HumHub log when an email cannot be sent' => 'เพิ่มข้อผิดพลาดในบันทึกของ HumHub เมื่อไม่สามารถส่งอีเมลได้',
+  'At most one notification per hour.' => 'แจ้งเตือนอย่างมากที่สุดหนึ่งครั้งต่อชั่วโมง',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'รายการที่คั่นด้วยเครื่องหมายจุลภาค ค่าของพารามิเตอร์การค้นหา URL เหล่านี้จะถูกแทนที่ด้วย {redacted}',
+  'Delete logs older than (days)' => 'ลบไฟล์บันทึกที่เก่ากว่า (วัน)',
+  'Email content to store' => 'เนื้อหาอีเมลที่จะจัดเก็บ',
+  'Email logs' => 'บันทึกอีเมล',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'อีเมลอาจมีข้อมูลส่วนบุคคล การไม่จัดเก็บเนื้อหาใดๆ จะช่วยลดขนาดฐานข้อมูล แต่จะไม่สามารถดูตัวอย่างหรือส่งอีเมลซ้ำได้',
+  'HTML and plain text' => 'โค้ด HTML และข้อความธรรมดา',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub บันทึกข้อผิดพลาดในการส่งแล้ว แต่ไม่มีข้อมูลผู้รับและหัวเรื่อง',
+  'No content' => 'ไม่มีเนื้อหา',
+  'Notify system administrators when an email cannot be sent' => 'แจ้งผู้ดูแลระบบเมื่อไม่สามารถส่งอีเมลได้',
+  'Plain text only' => 'ข้อความธรรมดาเท่านั้น',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'คำแนะนำ: อีเมลต่างๆ เช่น อีเมลกู้คืนรหัสผ่าน อีเมลเชิญลงทะเบียน หรืออีเมลเปลี่ยนอีเมล ควรมีลิงก์ที่มีรหัสลับ ซึ่งจะทำให้ใครก็ตามที่เข้าถึงบันทึกการใช้งานสามารถเข้าควบคุมบัญชีได้',
+  'Redact security tokens in the stored content' => 'ลบโทเค็นความปลอดภัยในเนื้อหาที่จัดเก็บไว้',
+  'URL parameters to redact' => 'พารามิเตอร์ URL ที่จะปกปิด',
+];

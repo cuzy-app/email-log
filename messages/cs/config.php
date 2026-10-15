@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 pro nikdy nemazání protokolů.',
+  'Add an "Email log" entry in the Administration menu' => 'Přidat položku „Protokol e-mailů“ do nabídky Administrace',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Přidat chybu do protokolu HumHub, když nelze odeslat e-mail',
+  'At most one notification per hour.' => 'Maximálně jedno oznámení za hodinu.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Seznam oddělený čárkami. Hodnoty těchto parametrů dotazu URL jsou nahrazeny {redacted} hodnotami .',
+  'Delete logs older than (days)' => 'Smazat protokoly starší než (dny)',
+  'Email content to store' => 'Obsah e-mailu do úložiště',
+  'Email logs' => 'Protokoly e-mailů',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'E-maily mohou obsahovat osobní údaje. Pokud neukládáte žádný obsah, zmenší se velikost databáze, ale e-mail nelze zobrazit v náhledu ani jej znovu odeslat.',
+  'HTML and plain text' => 'HTML a prostý text',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub již zaznamenává chybu přenosu, ale bez příjemce a subjektu.',
+  'No content' => 'Žádný obsah',
+  'Notify system administrators when an email cannot be sent' => 'Upozornit správce systému, když nelze odeslat e-mail',
+  'Plain text only' => 'Pouze prostý text',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Doporučeno: e-maily jako obnovení hesla, pozvánka k registraci nebo změna e-mailu obsahují odkazy s tajnými tokeny, které by umožnily komukoli s přístupem k protokolům převzít kontrolu nad účtem.',
+  'Redact security tokens in the stored content' => 'Redigovat bezpečnostní tokeny v uloženém obsahu',
+  'URL parameters to redact' => 'Parametry URL, které se mají redigovat',
+];

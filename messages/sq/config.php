@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 për të mos fshirë kurrë regjistrat.',
+  'Add an "Email log" entry in the Administration menu' => 'Shtoni një hyrje "Regjistri i email-eve" në menynë e Administrimit',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Shtoni një gabim në regjistrin HumHub kur një email nuk mund të dërgohet',
+  'At most one notification per hour.' => 'Maksimumi një njoftim në orë.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Listë e ndarë me presje. Vlerat e këtyre parametrave të pyetjes së URL-së zëvendësohen me {redacted} .',
+  'Delete logs older than (days)' => 'Fshij regjistrat më të vjetër se (ditë)',
+  'Email content to store' => 'Dërgoni përmbajtje me email në ruajtje për ta dërguar në dyqan.',
+  'Email logs' => 'Regjistrat e email-eve',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Emailet mund të përmbajnë të dhëna personale. Mosruajtja e përmbajtjes zvogëlon madhësinë e bazës së të dhënave, por emaili nuk mund të shikohet paraprakisht ose të dërgohet përsëri.',
+  'HTML and plain text' => 'HTML dhe tekst i thjeshtë',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub tashmë e regjistron gabimin e transportit, por pa marrësin dhe subjektin.',
+  'No content' => 'Pa përmbajtje',
+  'Notify system administrators when an email cannot be sent' => 'Njoftoni administratorët e sistemit kur një email nuk mund të dërgohet',
+  'Plain text only' => 'Vetëm tekst i thjeshtë',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Rekomandohet: email-et si rikuperimi i fjalëkalimit, ftesa për regjistrim ose ndryshimi i email-it përmbajnë lidhje me tokena sekretë që do t\'i lejonin kujtdo që ka qasje në regjistra të marrë përsipër një llogari.',
+  'Redact security tokens in the stored content' => 'Redaktoni tokenët e sigurisë në përmbajtjen e ruajtur',
+  'URL parameters to redact' => 'Parametrat e URL-së për t\'u redaktuar',
+];

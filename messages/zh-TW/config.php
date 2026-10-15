@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 表示永不刪除日誌。',
+  'Add an "Email log" entry in the Administration menu' => '在管理選單中新增「電子郵件日誌」項目',
+  'Add an error in the HumHub log when an email cannot be sent' => '當郵件發送失敗時，在 HumHub 日誌中新增錯誤訊息。',
+  'At most one notification per hour.' => '每小時最多發送一條通知。',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => '逗號分隔的清單。這些 URL 查詢參數的值已被替換為{redacted} 。',
+  'Delete logs older than (days)' => '刪除早於（天）的日誌',
+  'Email content to store' => '要儲存的電子郵件內容',
+  'Email logs' => '電子郵件日誌',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => '電子郵件可能包含個人資料。不儲存任何內容會減少資料庫大小，但郵件將無法預覽或重新發送。',
+  'HTML and plain text' => 'HTML 和純文字',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub 已經記錄了傳輸錯誤，但沒有記錄收件者和主題。',
+  'No content' => '無內容',
+  'Notify system administrators when an email cannot be sent' => '當郵件發送失敗時，通知系統管理員。',
+  'Plain text only' => '純文字',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => '建議：密碼恢復、註冊邀請或電子郵件更改等電子郵件包含帶有秘密令牌的鏈接，任何有權訪問日誌的人都可以利用這些鏈接接管帳戶。',
+  'Redact security tokens in the stored content' => '編輯儲存內容中的安全性令牌',
+  'URL parameters to redact' => '要編輯的 URL 參數',
+];

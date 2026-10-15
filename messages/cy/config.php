@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 i beidio byth â dileu logiau.',
+  'Add an "Email log" entry in the Administration menu' => 'Ychwanegu cofnod "Log e-bost" yn y ddewislen Gweinyddu',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Ychwanegu gwall yn log HumHub pan na ellir anfon e-bost',
+  'At most one notification per hour.' => 'Un hysbysiad yr awr ar y mwyaf.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Rhestr wedi\'i gwahanu gan goma. Mae gwerthoedd y paramedrau ymholiad URL hyn wedi\'u disodli â {redacted} .',
+  'Delete logs older than (days)' => 'Dileu logiau sy\'n hŷn na (diwrnodau)',
+  'Email content to store' => 'E-bostiwch gynnwys i\'r siop',
+  'Email logs' => 'Logiau e-bost',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Gall negeseuon e-bost gynnwys data personol. Os nad oes unrhyw gynnwys yn cael ei storio, mae maint y gronfa ddata yn lleihau, ond ni ellir rhagweld na hail-anfon yr e-bost.',
+  'HTML and plain text' => 'HTML a thestun plaen',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'Mae HumHub eisoes yn cofnodi\'r gwall cludo, ond heb y derbynnydd a\'r pwnc.',
+  'No content' => 'Dim cynnwys',
+  'Notify system administrators when an email cannot be sent' => 'Hysbysu gweinyddwyr system pan na ellir anfon e-bost',
+  'Plain text only' => 'Testun plaen yn unig',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Argymhellir: mae negeseuon e-bost fel adfer cyfrinair, gwahoddiad cofrestru neu newid e-bost yn cynnwys dolenni â thocynnau cyfrinachol a fyddai\'n caniatáu i unrhyw un sydd â mynediad i\'r logiau gymryd drosodd gyfrif.',
+  'Redact security tokens in the stored content' => 'Golygu tocynnau diogelwch yn y cynnwys sydd wedi\'i storio',
+  'URL parameters to redact' => 'Paramedrau URL i\'w golygu',
+];

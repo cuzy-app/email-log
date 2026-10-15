@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0, kad niekada nebūtų ištrinti žurnalai.',
+  'Add an "Email log" entry in the Administration menu' => 'Į administravimo meniu įtraukite įrašą „El. pašto žurnalas“',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Pridėti klaidą „HumHub“ žurnale, kai negalima išsiųsti el. laiško',
+  'At most one notification per hour.' => 'Daugiausia vienas pranešimas per valandą.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Kableliais atskirtas sąrašas. Šių URL užklausos parametrų reikšmės pakeičiamos {redacted} verte.',
+  'Delete logs older than (days)' => 'Ištrinti žurnalus, senesnius nei (dienos)',
+  'Email content to store' => 'El. paštu siunčiamas turinys saugojimui',
+  'Email logs' => 'El. pašto žurnalai',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'El. laiškuose gali būti asmeninių duomenų. Nesaugant jokio turinio, sumažėja duomenų bazės dydis, tačiau el. laiško negalima peržiūrėti ar išsiųsti pakartotinai.',
+  'HTML and plain text' => 'HTML ir paprastas tekstas',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => '„HumHub“ jau registruoja perdavimo klaidą, bet nenurodo gavėjo ir temos.',
+  'No content' => 'Nėra turinio',
+  'Notify system administrators when an email cannot be sent' => 'Pranešti sistemos administratoriams, kai negalima išsiųsti el. laiško',
+  'Plain text only' => 'Tik paprastas tekstas',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Rekomenduojama: tokiuose el. laiškuose kaip slaptažodžio atkūrimas, registracijos kvietimas ar el. pašto adreso keitimas yra nuorodos su slaptais prieigos raktais, kurie leistų bet kam, turinčiam prieigą prie žurnalų, perimti paskyrą.',
+  'Redact security tokens in the stored content' => 'Redaguoti saugos žetonus saugomame turinyje',
+  'URL parameters to redact' => 'Redaguotini URL parametrai',
+];

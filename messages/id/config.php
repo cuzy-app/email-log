@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 untuk tidak pernah menghapus log.',
+  'Add an "Email log" entry in the Administration menu' => 'Tambahkan entri "Log email" di menu Administrasi.',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Tambahkan pesan kesalahan di log HumHub ketika email tidak dapat dikirim.',
+  'At most one notification per hour.' => 'Paling banyak satu pemberitahuan per jam.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Daftar yang dipisahkan koma. Nilai parameter kueri URL ini diganti dengan {redacted} .',
+  'Delete logs older than (days)' => 'Hapus log yang lebih lama dari (hari)',
+  'Email content to store' => 'Konten email untuk disimpan',
+  'Email logs' => 'Catatan email',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Email dapat berisi data pribadi. Menyimpan tanpa konten akan mengurangi ukuran basis data, tetapi email tersebut tidak dapat dipratinjau atau dikirim ulang.',
+  'HTML and plain text' => 'HTML dan teks biasa',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub sudah mencatat kesalahan pengiriman, tetapi tanpa penerima dan subjeknya.',
+  'No content' => 'Tidak ada konten',
+  'Notify system administrators when an email cannot be sent' => 'Beri tahu administrator sistem jika email tidak dapat dikirim.',
+  'Plain text only' => 'Teks biasa saja',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Disarankan: email seperti pemulihan kata sandi, undangan pendaftaran, atau perubahan email berisi tautan dengan token rahasia yang memungkinkan siapa pun yang memiliki akses ke log untuk mengambil alih akun.',
+  'Redact security tokens in the stored content' => 'Hapus token keamanan dalam konten yang tersimpan.',
+  'URL parameters to redact' => 'Parameter URL yang perlu disunting',
+];

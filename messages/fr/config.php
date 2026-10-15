@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 pour ne jamais supprimer les journaux.',
+  'Add an "Email log" entry in the Administration menu' => 'Ajouter une entrée « Journal des e-mails » dans le menu Administration',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Ajouter une erreur dans le journal HumHub lorsqu\'un e-mail ne peut pas être envoyé',
+  'At most one notification per hour.' => 'Au maximum une notification par heure.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Liste séparée par des virgules. Les valeurs de ces paramètres de requête URL sont remplacées par {redacted} .',
+  'Delete logs older than (days)' => 'Supprimer les journaux datant de plus de (jours)',
+  'Email content to store' => 'Contenu de l\'e-mail à stocker',
+  'Email logs' => 'Journaux de courriel',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Les courriels peuvent contenir des données personnelles. Ne pas stocker leur contenu réduit la taille de la base de données, mais le courriel ne peut alors plus être prévisualisé ni renvoyé.',
+  'HTML and plain text' => 'HTML et texte brut',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub enregistre déjà l\'erreur de transport, mais sans le destinataire ni le sujet.',
+  'No content' => 'Aucun contenu',
+  'Notify system administrators when an email cannot be sent' => 'Avertir les administrateurs système lorsqu\'un e-mail ne peut être envoyé.',
+  'Plain text only' => 'Texte brut uniquement',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Recommandation : les courriels tels que les courriels de récupération de mot de passe, d’invitation à l’inscription ou de changement d’adresse courriel contiennent des liens avec des jetons secrets qui permettraient à toute personne ayant accès aux journaux de prendre le contrôle d’un compte.',
+  'Redact security tokens in the stored content' => 'Masquer les jetons de sécurité dans le contenu stocké',
+  'URL parameters to redact' => 'Paramètres d\'URL à masquer',
+];

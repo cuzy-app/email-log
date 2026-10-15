@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0, günlükleri asla silmemek anlamına gelir.',
+  'Add an "Email log" entry in the Administration menu' => 'Yönetim menüsüne "E-posta günlüğü" girişi ekleyin.',
+  'Add an error in the HumHub log when an email cannot be sent' => 'E-posta gönderilemediğinde HumHub günlük dosyasına bir hata mesajı ekleyin.',
+  'At most one notification per hour.' => 'Saatte en fazla bir bildirim.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Virgülle ayrılmış liste. Bu URL sorgu parametrelerinin değerleri {redacted} değiştirilmiştir.',
+  'Delete logs older than (days)' => '(gün) tarihinden eski kayıtları sil',
+  'Email content to store' => 'E-posta içeriğini saklamak için',
+  'Email logs' => 'E-posta kayıtları',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'E-postalar kişisel veriler içerebilir. İçerik saklanmaması veritabanı boyutunu küçültür, ancak e-posta önizlenemez veya yeniden gönderilemez.',
+  'HTML and plain text' => 'HTML ve düz metin',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub zaten iletim hatasını kaydediyor, ancak alıcı ve konu bilgilerini kaydetmiyor.',
+  'No content' => 'İçerik yok',
+  'Notify system administrators when an email cannot be sent' => 'E-posta gönderilemediğinde sistem yöneticilerine bildirim gönder',
+  'Plain text only' => 'Yalnızca düz metin',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Önerilen: Parola kurtarma, kayıt daveti veya e-posta değiştirme gibi e-postalar, kayıtlara erişimi olan herkesin hesabı ele geçirmesine olanak sağlayacak gizli belirteçler içeren bağlantılar içerebilir.',
+  'Redact security tokens in the stored content' => 'Saklanan içerikteki güvenlik belirteçlerini gizleyin.',
+  'URL parameters to redact' => 'URL parametrelerinin gizlenmesi',
+];

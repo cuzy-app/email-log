@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 betekent dat logbestanden nooit verwijderd mogen worden.',
+  'Add an "Email log" entry in the Administration menu' => 'Voeg een item \'E-maillogboek\' toe in het beheerdersmenu.',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Voeg een foutmelding toe aan het HumHub-logboek wanneer een e-mail niet kan worden verzonden.',
+  'At most one notification per hour.' => 'Maximaal één melding per uur.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Door komma\'s gescheiden lijst. De waarden van deze URL-queryparameters zijn vervangen door {redacted} .',
+  'Delete logs older than (days)' => 'Verwijder logbestanden die ouder zijn dan (dagen).',
+  'Email content to store' => 'E-mailinhoud opslaan',
+  'Email logs' => 'E-maillogboeken',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'E-mails kunnen persoonlijke gegevens bevatten. Door geen inhoud op te slaan, wordt de database kleiner, maar de e-mail kan dan niet worden bekeken of opnieuw verzonden.',
+  'HTML and plain text' => 'HTML en platte tekst',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub registreert de transportfout al, maar zonder de ontvanger en het onderwerp.',
+  'No content' => 'Geen inhoud',
+  'Notify system administrators when an email cannot be sent' => 'Stel systeembeheerders op de hoogte wanneer een e-mail niet kan worden verzonden.',
+  'Plain text only' => 'Alleen platte tekst',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Aanbevolen: e-mails zoals wachtwoordherstel-, registratie-uitnodigings- of e-mailwijzigingsmails bevatten links met geheime tokens waarmee iedereen die toegang heeft tot de logbestanden een account kan overnemen.',
+  'Redact security tokens in the stored content' => 'Beveiligingstokens in de opgeslagen inhoud verwijderen',
+  'URL parameters to redact' => 'URL-parameters die moeten worden geredigeerd',
+];

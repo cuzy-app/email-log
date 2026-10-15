@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 bedeutet, dass Protokolle niemals gelöscht werden.',
+  'Add an "Email log" entry in the Administration menu' => 'Fügen Sie im Administrationsmenü einen Eintrag „E-Mail-Protokoll“ hinzu.',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Füge einen Fehler im HumHub-Protokoll hinzu, der auftritt, wenn eine E-Mail nicht gesendet werden kann.',
+  'At most one notification per hour.' => 'Höchstens eine Benachrichtigung pro Stunde.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Kommagetrennte Liste. Die Werte dieser URL-Abfrageparameter werden durch {redacted} ersetzt.',
+  'Delete logs older than (days)' => 'Protokolle löschen, die älter als (Tage) sind',
+  'Email content to store' => 'E-Mail-Inhalte zum Speichern',
+  'Email logs' => 'E-Mail-Protokolle',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'E-Mails können personenbezogene Daten enthalten. Wenn keine Inhalte gespeichert werden, verringert sich die Größe der Datenbank, die E-Mail kann jedoch nicht in der Vorschau angezeigt oder erneut versendet werden.',
+  'HTML and plain text' => 'HTML und Klartext',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub protokolliert bereits den Transportfehler, jedoch ohne Empfänger und Betreff.',
+  'No content' => 'Kein Inhalt',
+  'Notify system administrators when an email cannot be sent' => 'Benachrichtigen Sie die Systemadministratoren, wenn eine E-Mail nicht versendet werden kann.',
+  'Plain text only' => 'Nur reiner Text',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Empfehlung: E-Mails wie Passwortwiederherstellungs-, Registrierungseinladungs- oder E-Mail-Änderungs-E-Mails enthalten Links mit geheimen Token, die es jedem mit Zugriff auf die Protokolle ermöglichen würden, ein Konto zu übernehmen.',
+  'Redact security tokens in the stored content' => 'Sicherheitstoken im gespeicherten Inhalt schwärzen',
+  'URL parameters to redact' => 'Zu schwärzende URL-Parameter',
+];

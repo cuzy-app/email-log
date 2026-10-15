@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => 'ログを一切削除しない場合は、0を指定します。',
+  'Add an "Email log" entry in the Administration menu' => '管理メニューに「メールログ」エントリを追加する',
+  'Add an error in the HumHub log when an email cannot be sent' => 'メール送信に失敗した場合に、HumHubログにエラーを追加する',
+  'At most one notification per hour.' => '1時間に最大1件の通知。',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'カンマ区切りのリスト。これらの URL クエリ パラメータの値は、 {redacted}で置き換えられます。',
+  'Delete logs older than (days)' => '（日）より古いログを削除します',
+  'Email content to store' => '保存するメールコンテンツ',
+  'Email logs' => 'メールログ',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'メールには個人データが含まれる場合があります。コンテンツを保存しないことでデータベースのサイズは小さくなりますが、メールのプレビューや再送信はできなくなります。',
+  'HTML and plain text' => 'HTMLとプレーンテキスト',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHubは既に転送エラーをログに記録していますが、受信者と件名は記録されていません。',
+  'No content' => 'コンテンツなし',
+  'Notify system administrators when an email cannot be sent' => 'メールが送信できない場合は、システム管理者に通知してください。',
+  'Plain text only' => 'プレーンテキストのみ',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => '推奨事項：パスワード復旧、登録招待、メールアドレス変更などのメールには、ログにアクセスできる人物がアカウントを乗っ取ることができる秘密トークンを含むリンクが含まれている場合があります。',
+  'Redact security tokens in the stored content' => '保存されたコンテンツ内のセキュリティトークンをマスキングする',
+  'URL parameters to redact' => '削除するURLパラメータ',
+];

@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 означает, что журналы никогда не будут удаляться.',
+  'Add an "Email log" entry in the Administration menu' => 'Добавьте запись «Журнал электронной почты» в меню «Администрирование».',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Добавить запись об ошибке в журнал HumHub в случае невозможности отправки электронного письма.',
+  'At most one notification per hour.' => 'Не более одного уведомления в час.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Список, разделённый запятыми. Значения этих параметров запроса URL заменены на {redacted} .',
+  'Delete logs older than (days)' => 'Удалите журналы старше (дней)',
+  'Email content to store' => 'Содержимое электронного письма для хранения',
+  'Email logs' => 'Журналы электронной почты',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Электронные письма могут содержать персональные данные. Сохранение только содержимого уменьшает размер базы данных, но при этом электронное письмо нельзя предварительно просмотреть или отправить повторно.',
+  'HTML and plain text' => 'HTML и простой текст',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub уже регистрирует ошибку передачи, но без получателя и темы сообщения.',
+  'No content' => 'Нет контента',
+  'Notify system administrators when an email cannot be sent' => 'Сообщайте системным администраторам о невозможности отправки электронного письма.',
+  'Plain text only' => 'Только обычный текст',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Рекомендуется: электронные письма, такие как письма для восстановления пароля, приглашения к регистрации или изменения адреса электронной почты, содержат ссылки с секретными токенами, которые позволят любому, кто имеет доступ к журналам, захватить учетную запись.',
+  'Redact security tokens in the stored content' => 'Удалите токены безопасности из сохраненного контента.',
+  'URL parameters to redact' => 'Параметры URL для редактирования',
+];

@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 for aldrig at slette logfiler.',
+  'Add an "Email log" entry in the Administration menu' => 'Tilføj en "E-maillog"-post i Administration-menuen',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Tilføj en fejl i HumHub-loggen, når en e-mail ikke kan sendes',
+  'At most one notification per hour.' => 'Højst én notifikation i timen.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Kommasepareret liste. Værdierne for disse URL-forespørgselsparametre erstattes med {redacted} .',
+  'Delete logs older than (days)' => 'Slet logfiler ældre end (dage)',
+  'Email content to store' => 'Send indhold til butikken via e-mail',
+  'Email logs' => 'E-mail-logfiler',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'E-mails kan indeholde personlige data. Hvis der ikke gemmes indhold, reduceres databasestørrelsen, men e-mailen kan ikke forhåndsvises eller sendes igen.',
+  'HTML and plain text' => 'HTML og almindelig tekst',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub logger allerede transportfejlen, men uden modtageren og emnet.',
+  'No content' => 'Intet indhold',
+  'Notify system administrators when an email cannot be sent' => 'Giv systemadministratorer besked, når en e-mail ikke kan sendes',
+  'Plain text only' => 'Kun almindelig tekst',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Anbefalet: E-mails såsom adgangskodegendannelse, registreringsinvitation eller e-mailændring indeholder links med hemmelige tokens, der giver alle med adgang til loggene mulighed for at overtage en konto.',
+  'Redact security tokens in the stored content' => 'Redigér sikkerhedstokens i det gemte indhold',
+  'URL parameters to redact' => 'URL-parametre, der skal redigeres',
+];

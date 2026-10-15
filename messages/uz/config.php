@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 hech qachon jurnallarni o\'chirmaslik uchun.',
+  'Add an "Email log" entry in the Administration menu' => 'Ma\'muriyat menyusiga "Elektron pochta jurnali" yozuvini qo\'shing',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Elektron pochta xabarini yuborib bo\'lmaganda, HumHub jurnaliga xatolik qo\'shing',
+  'At most one notification per hour.' => 'Soatiga ko\'pi bilan bitta bildirishnoma.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Vergul bilan ajratilgan ro\'yxat. Ushbu URL so\'rov parametrlarining qiymatlari {redacted} bilan almashtiriladi.',
+  'Delete logs older than (days)' => '(Kunlar) dan eski jurnallarni o\'chirish',
+  'Email content to store' => 'Saqlash uchun kontentni elektron pochta orqali yuboring',
+  'Email logs' => 'Elektron pochta jurnallari',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Elektron pochta xabarlarida shaxsiy ma\'lumotlar bo\'lishi mumkin. Hech qanday kontent saqlanmasa, ma\'lumotlar bazasi hajmi kamayadi, ammo elektron pochtani oldindan ko\'rib chiqish yoki qayta ko\'rib chiqish mumkin emas.',
+  'HTML and plain text' => 'HTML va oddiy matn',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub allaqachon transport xatosini qayd qiladi, lekin qabul qiluvchi va mavzusiz.',
+  'No content' => 'Kontent yo\'q',
+  'Notify system administrators when an email cannot be sent' => 'Elektron pochta xabarini yuborib bo\'lmaganda tizim administratorlariga xabar bering',
+  'Plain text only' => 'Faqat oddiy matn',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Tavsiya etiladi: parolni tiklash, ro\'yxatdan o\'tishga taklifnoma yoki elektron pochtani o\'zgartirish kabi elektron pochta xabarlarida jurnallarga kirish huquqiga ega bo\'lgan har qanday kishiga hisobni egallash imkonini beruvchi maxfiy tokenlarga ega havolalar mavjud.',
+  'Redact security tokens in the stored content' => 'Saqlangan kontentdagi xavfsizlik tokenlarini tahrirlash',
+  'URL parameters to redact' => 'Tahrirlash uchun URL parametrlari',
+];

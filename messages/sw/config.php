@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 ili usifute kumbukumbu kamwe.',
+  'Add an "Email log" entry in the Administration menu' => 'Ongeza ingizo la "Kumbukumbu ya barua pepe" kwenye menyu ya Utawala',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Ongeza hitilafu katika kumbukumbu ya HumHub wakati barua pepe haiwezi kutumwa',
+  'At most one notification per hour.' => 'Arifa isiyozidi moja kwa saa.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Orodha iliyotenganishwa kwa koma. Thamani za vigezo hivi vya hoja ya URL hubadilishwa na {redacted} .',
+  'Delete logs older than (days)' => 'Futa kumbukumbu zilizopitwa na wakati (siku)',
+  'Email content to store' => 'Tuma maudhui kwa barua pepe ili kuhifadhi',
+  'Email logs' => 'Kumbukumbu za barua pepe',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Barua pepe zinaweza kuwa na data ya kibinafsi. Kutohifadhi maudhui hupunguza ukubwa wa hifadhidata, lakini barua pepe haiwezi kuchunguliwa au kurejeshwa.',
+  'HTML and plain text' => 'HTML na maandishi wazi',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub tayari inarekodi hitilafu ya usafiri, lakini bila mpokeaji na mhusika.',
+  'No content' => 'Hakuna maudhui',
+  'Notify system administrators when an email cannot be sent' => 'Wajulishe wasimamizi wa mfumo wakati barua pepe haiwezi kutumwa',
+  'Plain text only' => 'Maandishi rahisi pekee',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Imependekezwa: barua pepe kama vile urejeshaji wa nenosiri, mwaliko wa usajili au mabadiliko ya barua pepe zina viungo vyenye tokeni za siri ambazo zingemruhusu mtu yeyote anayepata kumbukumbu kuchukua akaunti.',
+  'Redact security tokens in the stored content' => 'Rekebisha tokeni za usalama katika maudhui yaliyohifadhiwa',
+  'URL parameters to redact' => 'Vigezo vya URL vya kurekebisha',
+];

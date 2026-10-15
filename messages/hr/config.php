@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 za nikad brisanje zapisnika.',
+  'Add an "Email log" entry in the Administration menu' => 'Dodajte unos "Zapisnik e-pošte" u izbornik Administracija',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Dodajte grešku u HumHub zapisnik kada se e-pošta ne može poslati',
+  'At most one notification per hour.' => 'Najviše jedna obavijest na sat.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Popis odvojen zarezima. Vrijednosti ovih parametara upita URL-a zamjenjuju se s {redacted} .',
+  'Delete logs older than (days)' => 'Izbriši zapisnike starije od (dana)',
+  'Email content to store' => 'Sadržaj e-pošte za pohranu',
+  'Email logs' => 'Zapisnici e-pošte',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'E-poruke mogu sadržavati osobne podatke. Nepohranjivanje sadržaja smanjuje veličinu baze podataka, ali e-poruku nije moguće pregledati ili ponovno poslati.',
+  'HTML and plain text' => 'HTML i običan tekst',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub već bilježi grešku u transportu, ali bez primatelja i subjekta.',
+  'No content' => 'Nema sadržaja',
+  'Notify system administrators when an email cannot be sent' => 'Obavijesti administratore sustava kada se e-pošta ne može poslati',
+  'Plain text only' => 'Samo običan tekst',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Preporučeno: e-poruke poput onih za oporavak lozinke, pozivnica za registraciju ili promjena e-pošte sadrže poveznice s tajnim tokenima koji bi omogućili bilo kome tko ima pristup zapisnicima da preuzme račun.',
+  'Redact security tokens in the stored content' => 'Uklonite sigurnosne tokene u pohranjenom sadržaju',
+  'URL parameters to redact' => 'URL parametri za redigiranje',
+];

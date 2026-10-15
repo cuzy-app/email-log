@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => 'ምዝግብ ማስታወሻዎችን ፈጽሞ ለመሰረዝ 0።',
+  'Add an "Email log" entry in the Administration menu' => 'በአስተዳደር ምናሌ ውስጥ "የኢሜይል ምዝግብ ማስታወሻ" ግቤት ያክሉ',
+  'Add an error in the HumHub log when an email cannot be sent' => 'ኢሜይል መላክ በማይቻልበት ጊዜ በHumHub ምዝግብ ማስታወሻ ላይ ስህተት ያክሉ',
+  'At most one notification per hour.' => 'ቢበዛ በሰዓት አንድ ማሳወቂያ።',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'በኮማ የተለዩ ዝርዝር። የእነዚህ የዩአርኤል መጠይቅ መለኪያዎች እሴቶች {redacted} ተተክተዋል።',
+  'Delete logs older than (days)' => 'ከ (ቀናት) በላይ የቆዩ ምዝግብ ማስታወሻዎችን ሰርዝ',
+  'Email content to store' => 'ይዘትን ለማከማቸት በኢሜይል ይላኩ',
+  'Email logs' => 'የኢሜይል ምዝግብ ማስታወሻዎች',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'ኢሜይሎች የግል መረጃዎችን ሊይዙ ይችላሉ። ምንም አይነት ይዘት ማከማቸት የውሂብ ጎታውን መጠን ይቀንሳል፣ ነገር ግን ኢሜይሉ አስቀድሞ ሊታይ ወይም እንደገና ሊቀርብ አይችልም።',
+  'HTML and plain text' => 'ኤችቲኤምኤል እና ግልጽ ጽሑፍ',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub የመጓጓዣ ስህተቱን አስቀድሞ ይመዘግባል፣ ነገር ግን ተቀባዩ እና ርዕሰ ጉዳዩ ሳይኖሩበት።',
+  'No content' => 'ምንም ይዘት የለም',
+  'Notify system administrators when an email cannot be sent' => 'ኢሜይል መላክ በማይቻልበት ጊዜ የስርዓት አስተዳዳሪዎችን ያሳውቁ',
+  'Plain text only' => 'ተራ ጽሑፍ ብቻ',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'የሚመከር፦ እንደ የይለፍ ቃል መልሶ ማግኛ፣ የምዝገባ ግብዣ ወይም የኢሜይል ለውጥ ያሉ ኢሜይሎች ወደ ምዝግብ ማስታወሻዎቹ መድረስ የሚችል ማንኛውም ሰው መለያ እንዲቆጣጠር የሚያስችላቸውን ሚስጥራዊ ቶከኖች የያዙ አገናኞችን ይዘዋል።',
+  'Redact security tokens in the stored content' => 'በተከማቸው ይዘት ውስጥ የደህንነት ቶከኖችን ያስተካክሉ',
+  'URL parameters to redact' => 'የሚስተካከሉ የዩአርኤል መለኪያዎች',
+];

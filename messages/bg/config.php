@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0, за да не се изтриват лог файловете никога.',
+  'Add an "Email log" entry in the Administration menu' => 'Добавете запис „Регистрационен запис на имейли“ в менюто „Администрация“',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Добавяне на грешка в лога на HumHub, когато имейл не може да бъде изпратен',
+  'At most one notification per hour.' => 'Най-много едно известие на час.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Списък, разделен със запетаи. Стойностите на тези параметри на заявката за URL адрес се заменят с {redacted} .',
+  'Delete logs older than (days)' => 'Изтриване на регистрационни файлове, по-стари от (дни)',
+  'Email content to store' => 'Съдържание по имейл за съхранение',
+  'Email logs' => 'Дневници по имейл',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Имейлите могат да съдържат лични данни. Несъхраняването на съдържание намалява размера на базата данни, но имейлът не може да бъде прегледан или изпратен повторно.',
+  'HTML and plain text' => 'HTML и обикновен текст',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub вече регистрира грешката при транспортиране, но без получателя и темата.',
+  'No content' => 'Няма съдържание',
+  'Notify system administrators when an email cannot be sent' => 'Уведомяване на системните администратори, когато имейл не може да бъде изпратен',
+  'Plain text only' => 'Само обикновен текст',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Препоръчително: имейли като възстановяване на парола, покана за регистрация или промяна на имейл съдържат връзки със секретни токени, които биха позволили на всеки, който има достъп до лог файловете, да поеме контрола над акаунт.',
+  'Redact security tokens in the stored content' => 'Редактиране на токени за сигурност в съхраненото съдържание',
+  'URL parameters to redact' => 'Параметри на URL адреса за редактиране',
+];

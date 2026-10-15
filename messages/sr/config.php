@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 да никада не брише логове.',
+  'Add an "Email log" entry in the Administration menu' => 'Додајте ставку „Дневник е-поште“ у мени Администрација',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Додајте грешку у HumHub дневник када се имејл не може послати',
+  'At most one notification per hour.' => 'Највише једно обавештење на сат.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Листа одвојена зарезима. Вредности ових параметара упита URL-а замењују се са {redacted} .',
+  'Delete logs older than (days)' => 'Обриши логове старије од (дана)',
+  'Email content to store' => 'Пошаљите садржај имејлом у складиште',
+  'Email logs' => 'Евиденције е-поште',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Имејлови могу да садрже личне податке. Ако се не чува садржај, величина базе података се смањује, али имејл не може бити прегледан или поново послат.',
+  'HTML and plain text' => 'HTML и обичан текст',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub већ евидентира грешку у транспорту, али без примаоца и субјекта.',
+  'No content' => 'Без садржаја',
+  'Notify system administrators when an email cannot be sent' => 'Обавести системске администраторе када се имејл не може послати',
+  'Plain text only' => 'Само обичан текст',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Препоручено: имејлови као што су опоравак лозинке, позивница за регистрацију или промена имејла садрже линкове са тајним токенима који би омогућили свакоме ко има приступ логовима да преузме контролу над налогом.',
+  'Redact security tokens in the stored content' => 'Уклоните безбедносне токене у сачуваном садржају',
+  'URL parameters to redact' => 'Параметри URL-а за редиговање',
+];

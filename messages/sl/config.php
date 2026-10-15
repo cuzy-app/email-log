@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0, da se dnevniki nikoli ne izbrišejo.',
+  'Add an "Email log" entry in the Administration menu' => 'V meniju Administracija dodajte vnos »Dnevnik e-pošte«',
+  'Add an error in the HumHub log when an email cannot be sent' => 'V dnevnik HumHub dodajte napako, ko e-pošte ni mogoče poslati',
+  'At most one notification per hour.' => 'Največ eno obvestilo na uro.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Seznam, ločen z vejicami. Vrednosti teh parametrov poizvedbe URL-ja so zamenjane z {redacted} .',
+  'Delete logs older than (days)' => 'Izbriši dnevnike, starejše od (dni)',
+  'Email content to store' => 'Vsebina po e-pošti za shranjevanje',
+  'Email logs' => 'Dnevniki e-pošte',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'E-poštna sporočila lahko vsebujejo osebne podatke. Če ne shranjujete vsebine, se velikost baze podatkov zmanjša, vendar e-poštnega sporočila ni mogoče predogledati ali ponovno poslati.',
+  'HTML and plain text' => 'HTML in navadno besedilo',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub že zabeleži napako pri prenosu, vendar brez prejemnika in osebe.',
+  'No content' => 'Brez vsebine',
+  'Notify system administrators when an email cannot be sent' => 'Obvesti sistemske skrbnike, ko e-pošte ni mogoče poslati',
+  'Plain text only' => 'Samo navadno besedilo',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Priporočeno: e-poštna sporočila, kot so obnovitev gesla, povabilo k registraciji ali sprememba e-poštnega naslova, vsebujejo povezave s tajnimi žetoni, ki bi vsakomur z dostopom do dnevnikov omogočili prevzem računa.',
+  'Redact security tokens in the stored content' => 'Izbrišite varnostne žetone v shranjeni vsebini',
+  'URL parameters to redact' => 'Parametri URL-ja za redigiranje',
+];

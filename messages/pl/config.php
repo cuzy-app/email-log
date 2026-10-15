@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 oznacza, że dzienniki nigdy nie będą usuwane.',
+  'Add an "Email log" entry in the Administration menu' => 'Dodaj wpis „Dziennik e-mail” w menu Administracja',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Dodaj błąd w dzienniku HumHub, gdy nie można wysłać wiadomości e-mail',
+  'At most one notification per hour.' => 'Maksymalnie jedno powiadomienie na godzinę.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Lista rozdzielona przecinkami. Wartości tych parametrów zapytania URL są zastępowane wartościami {redacted} .',
+  'Delete logs older than (days)' => 'Usuń logi starsze niż (dni)',
+  'Email content to store' => 'Treść wiadomości e-mail do przechowywania',
+  'Email logs' => 'Dzienniki e-mail',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Wiadomości e-mail mogą zawierać dane osobowe. Brak przechowywania treści zmniejsza rozmiar bazy danych, ale nie można wyświetlić podglądu ani ponownie wysłać wiadomości.',
+  'HTML and plain text' => 'HTML i zwykły tekst',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub już rejestruje błąd transportu, ale bez odbiorcy i tematu.',
+  'No content' => 'Brak treści',
+  'Notify system administrators when an email cannot be sent' => 'Powiadom administratorów systemu, jeśli nie można wysłać wiadomości e-mail',
+  'Plain text only' => 'Tylko zwykły tekst',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Zalecane: wiadomości e-mail, takie jak te dotyczące odzyskiwania hasła, zaproszenia do rejestracji lub zmiany adresu e-mail, zawierają linki z tajnymi tokenami, które umożliwiają przejęcie konta przez osobę mającą dostęp do logów.',
+  'Redact security tokens in the stored content' => 'Usuń tokeny bezpieczeństwa z przechowywanej zawartości',
+  'URL parameters to redact' => 'Parametry adresu URL do redagowania',
+];

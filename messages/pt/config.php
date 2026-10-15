@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0 para nunca excluir registros.',
+  'Add an "Email log" entry in the Administration menu' => 'Adicione uma entrada "Registro de e-mails" no menu Administração.',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Adicione um erro no log do HumHub quando um e-mail não puder ser enviado.',
+  'At most one notification per hour.' => 'No máximo uma notificação por hora.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Lista separada por vírgulas. Os valores desses parâmetros de consulta da URL foram substituídos por {redacted} .',
+  'Delete logs older than (days)' => 'Excluir registros com mais de (dias)',
+  'Email content to store' => 'Enviar conteúdo por e-mail para a loja',
+  'Email logs' => 'Registros de e-mail',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Os e-mails podem conter dados pessoais. Não armazenar conteúdo reduz o tamanho do banco de dados, mas o e-mail não poderá ser visualizado ou reenviado.',
+  'HTML and plain text' => 'HTML e texto simples',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'O HumHub já registra o erro de transporte, mas sem o destinatário e o assunto.',
+  'No content' => 'Sem conteúdo',
+  'Notify system administrators when an email cannot be sent' => 'Notificar os administradores do sistema quando um e-mail não puder ser enviado.',
+  'Plain text only' => 'Somente texto simples',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Recomendação: e-mails como os de recuperação de senha, convite para cadastro ou alteração de e-mail contêm links com tokens secretos que permitem que qualquer pessoa com acesso aos registros assuma o controle de uma conta.',
+  'Redact security tokens in the stored content' => 'Redija os tokens de segurança no conteúdo armazenado.',
+  'URL parameters to redact' => 'Parâmetros de URL a serem ocultados',
+];

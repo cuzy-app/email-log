@@ -1,0 +1,20 @@
+<?php
+return [
+  '0 to never delete logs.' => '0, щоб ніколи не видаляти журнали.',
+  'Add an "Email log" entry in the Administration menu' => 'Додати запис «Журнал електронної пошти» в меню адміністрування',
+  'Add an error in the HumHub log when an email cannot be sent' => 'Додати помилку в журнал HumHub, коли електронний лист не вдається надіслати',
+  'At most one notification per hour.' => 'Максимум одне повідомлення на годину.',
+  'Comma separated list. The values of these URL query parameters are replaced with {redacted}.' => 'Список, розділений комами. Значення цих параметрів запиту URL-адреси замінюються на {redacted} .',
+  'Delete logs older than (days)' => 'Видалити журнали, старіші за (днів)',
+  'Email content to store' => 'Вміст електронної пошти для зберігання',
+  'Email logs' => 'Журнали електронної пошти',
+  'Emails can contain personal data. Storing no content reduces the database size, but the email cannot be previewed or resent.' => 'Електронні листи можуть містити персональні дані. Якщо не зберігати вміст, розмір бази даних зменшується, але електронний лист не можна переглянути або надіслати повторно.',
+  'HTML and plain text' => 'HTML та звичайний текст',
+  'HumHub already logs the transport error, but without the recipient and the subject.' => 'HumHub вже реєструє помилку транспортування, але без одержувача та теми.',
+  'No content' => 'Без контенту',
+  'Notify system administrators when an email cannot be sent' => 'Повідомляти системних адміністраторів, коли електронний лист неможливо надіслати',
+  'Plain text only' => 'Тільки звичайний текст',
+  'Recommended: emails such as password recovery, registration invitation or email change contain links with secret tokens that would allow anyone having access to the logs to take over an account.' => 'Рекомендовано: електронні листи, такі як відновлення пароля, запрошення для реєстрації або зміна електронної пошти, містять посилання із секретними токенами, які дозволять будь-кому, хто має доступ до журналів, отримати доступ до облікового запису.',
+  'Redact security tokens in the stored content' => 'Видалити токени безпеки у збереженому контенті',
+  'URL parameters to redact' => 'Параметри URL-адреси для редагування',
+];
