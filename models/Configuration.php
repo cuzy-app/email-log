@@ -28,7 +28,7 @@ class Configuration extends Model
     public bool|string $logErrors = true;
     public bool|string $notifyAdmins = true;
     public bool|string $showInAdminMenu = true;
-    public string $contentStorage = self::CONTENT_STORAGE_FULL;
+    public string $contentStorage = self::CONTENT_STORAGE_NONE;
     public bool|string $redactTokens = true;
     /**
      * @var string Comma separated list of URL query parameter names whose values are redacted
