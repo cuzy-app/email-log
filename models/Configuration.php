@@ -24,7 +24,7 @@ class Configuration extends Model
     /**
      * @var int|string Number of days after which logs are deleted (0 = never)
      */
-    public int|string $purgePeriod = 365;
+    public int|string $purgePeriod = 30;
     public bool|string $logErrors = true;
     public bool|string $notifyAdmins = true;
     public bool|string $showInAdminMenu = true;
