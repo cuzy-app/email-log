@@ -2,8 +2,15 @@
     "id": "email-log",
     "name": "Email Log",
     "description": "Logs all emails sent by HumHub (recipient, subject, content, status and error), with a searchable administration list, failure alerts and auto-purge.",
-    "keywords": ["email", "mail", "log", "smtp", "debug", "admin"],
-    "version": "1.0.0",
+    "keywords": [
+        "email",
+        "mail",
+        "log",
+        "smtp",
+        "debug",
+        "admin"
+    ],
+    "version": "1.0.1",
     "humhub": {
         "minVersion": "1.19",
         "maxVersion": "1.19"
