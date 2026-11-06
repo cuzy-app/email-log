@@ -36,7 +36,7 @@ class LoggingTransport implements TransportInterface
         try {
             return $this->transport->send($message, $envelope);
         } catch (Throwable $e) {
-            $this->lastError = get_class($e) . ': ' . $e->getMessage();
+            $this->lastError = $e::class . ': ' . $e->getMessage();
             throw $e;
         }
     }
