@@ -27,7 +27,7 @@ https://github.com/cuzy-app/email-log
 
 ## Publisher
 
-[CUZY.APP](https://www.cuzy.app/)
+[CUZY.app](https://www.cuzy.app)
 
 ## Licence
 
