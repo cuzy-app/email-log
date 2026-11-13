@@ -51,6 +51,28 @@ class EmailLog extends ActiveRecord
     }
 
     /**
+     * Deletes the logs older than the given date in chunks, so that a large purge (first run, shortened
+     * retention, mass mailing) does not hold the locks on the table for the whole delete
+     * @param string $before date time `Y-m-d H:i:s`
+     * @param int $chunkSize
+     * @return int number of deleted rows
+     */
+    public static function purgeOlderThan(string $before, int $chunkSize = 5000): int
+    {
+        $chunkSize = max(1, $chunkSize);
+        $deleted = 0;
+        do {
+            $affected = Yii::$app->db->createCommand(
+                'DELETE FROM ' . static::tableName() . ' WHERE created_at < :before ORDER BY id LIMIT ' . $chunkSize,
+                [':before' => $before],
+            )->execute();
+            $deleted += $affected;
+        } while ($affected >= $chunkSize);
+
+        return $deleted;
+    }
+
+    /**
      * @inheritdoc
      */
     public function behaviors()

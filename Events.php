@@ -67,7 +67,7 @@ class Events
         try {
             $purgePeriod = Module::getInstance()->getConfiguration()->purgePeriod;
             if ($purgePeriod > 0) {
-                EmailLog::deleteAll(['<', 'created_at', date('Y-m-d H:i:s', strtotime('-' . $purgePeriod . ' days'))]);
+                EmailLog::purgeOlderThan(date('Y-m-d H:i:s', strtotime('-' . $purgePeriod . ' days')));
             }
         } catch (Throwable $e) {
             Yii::error('Email Log module: ' . $e->getMessage(), 'email-log');

@@ -117,8 +117,16 @@ class EmailLogSearch extends Model
 
         if ($this->freeText !== null && trim($this->freeText) !== '') {
             $freeText = trim($this->freeText);
+
+            if (self::looksLikeEmail($freeText)) {
+                // An email address (or its beginning): prefix match on the indexed email column only,
+                // without the user/profile join
+                $query->andWhere(['like', 'email_log.email', $freeText . '%', false]);
+                return;
+            }
+
             $query
-                ->joinWith('user.profile')
+                ->joinWith('user.profile', false) // No eager loading: the list query already has with('user.profile')
                 ->andWhere(['or',
                     ['email_log.id' => ctype_digit($freeText) ? (int)$freeText : null],
                     ['like', 'email_log.email', $freeText],
@@ -127,5 +135,16 @@ class EmailLogSearch extends Model
                     ['like', "CONCAT(profile.firstname, ' ', profile.lastname)", $freeText],
                 ]);
         }
+    }
+
+    /**
+     * Whether the search term is an email address or the beginning of one (`john@`, `john@example.com`):
+     * contains `@` after at least one character and no space
+     * @param string $term
+     * @return bool
+     */
+    public static function looksLikeEmail(string $term): bool
+    {
+        return strpos($term, '@') > 0 && !preg_match('/\s/', $term);
     }
 }
