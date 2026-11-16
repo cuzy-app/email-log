@@ -19,7 +19,7 @@ use Throwable;
  * Decorates the mailer transport to keep the error message of the last failed sending,
  * as `yii\symfonymailer\Mailer::sendMessage()` catches the exception and only returns `false`
  */
-class LoggingTransport implements TransportInterface
+class LoggingTransport implements TransportInterface, \Stringable
 {
     public ?string $lastError = null;
 
@@ -36,7 +36,7 @@ class LoggingTransport implements TransportInterface
         try {
             return $this->transport->send($message, $envelope);
         } catch (Throwable $e) {
-            $this->lastError = get_class($e) . ': ' . $e->getMessage();
+            $this->lastError = $e::class . ': ' . $e->getMessage();
             throw $e;
         }
     }
